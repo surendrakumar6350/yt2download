@@ -85,7 +85,7 @@ const page = () => {
 <div className='after2'>
 
 <div className='text2'>
-Explore the ultimate solution for easy and efficient video and music downloads from the internet: our Ssyoutube video downloader. This user-friendly, free tool simplifies the process of downloading your favorite videos and music with a single click, ensuring a seamless experience!
+Explore the ultimate solution for easy and efficient video and music downloads from the internet: our yt2download video downloader. This user-friendly, free tool simplifies the process of downloading your favorite videos and music with a single click, ensuring a seamless experience!
 </div>
 <h5 className="text-muted mb-0 text-center">Supported Platforms:</h5>
 <div className="icons2 row justify-content-center">
