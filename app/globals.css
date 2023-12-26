@@ -402,9 +402,9 @@ section h3.title{
         width: 200px;
     }
     .h22 {
-        width: 350px;
+        width: 280px;
         font-size: 20px;
-        margin: 20px auto 10px auto;
+        margin: 20px auto 10px 120px;
     }
     .mainsearch2 {
         margin-top: 40px;
@@ -414,13 +414,18 @@ section h3.title{
     }
     
 }
+@media (max-width: 450px) {
+    .h22 {
+        margin: 20px auto 10px 70px;
+    }
+}
 @media (max-width: 360px) {
     .search2 {
         width: 150px;
     }
 .h22 {
-    width: 270px;
-    font-size: 14px;
+    width: 210px;
+    font-size: 15px;
 }
 .p2 {
     font-size: 6px;

@@ -58,14 +58,14 @@ const page = () => {
       <Container className='mainsearch2' maxWidth="sm">
         <Box className='boxss' sx={{  height: '10vh' }}>
           <input type="text" value={searchq} onChange={(e) => setsearchq(e.target.value)} placeholder="Search" className="px-4 py-2 search2 border border-gray-300 rounded-md w-64 focus:outline-none focus:ring focus:border-blue-500" />
-          {classNames ? <LoadingButton
-            className="rahul ml-4 px-6 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-700"
+          {classNames ? <LoadingButton style={{marginLeft: "5px", background: "blue", color: "white"}}
+            
             onClick={searchnow}
             variant="outlined">
             search
-          </LoadingButton> : <LoadingButton
+          </LoadingButton> : <LoadingButton style={{marginLeft: "3px"}}
             loading
-            className="rahul ml-4 px-6 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-700"
+            
           >
             search
           </LoadingButton>}
