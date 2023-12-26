@@ -1,6 +1,4 @@
 'use client'
-
-
 import React, { useRef, useState } from 'react'
 import LoadingButton from '@mui/lab/LoadingButton';
 import { searchdata } from './apicalling/call'
@@ -12,6 +10,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import Container from '@mui/material/Container';
+import Link from 'next/link';
 
 
 
@@ -45,7 +44,9 @@ const page = () => {
     <>
 
       <div className='nav2'>
+        <Link style={{width: "100%", height: "100%"}} href={'/'}>
         <div className='logo2'></div>
+        </Link>
       </div>
 <div className='h22'>
 <h2 >YouTube Video Downloader</h2>

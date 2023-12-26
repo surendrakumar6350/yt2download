@@ -16,7 +16,7 @@ return <>
             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">{e?.video.channelName}</h1>
             <p style={{color: "black"}} className="leading-relaxed mb-3">{e.video.title}</p>
             <div className="flex items-center flex-wrap">
-              <a className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">{e.video.viewCountText}
+              <a style={{marginLeft: "0px"}} className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">{e.video.viewCountText}
               </a>
             </div>
           </div>

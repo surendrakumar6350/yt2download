@@ -8,6 +8,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { download, related } from '@/app/apicalling/call';
+import Link from 'next/link';
 
 
 
@@ -43,7 +44,9 @@ const page1 = ({ params }) => {
     <>
 
       <div className='nav2'>
+        <Link style={{width: "100%", height: "100%"}} href={'/'}>
         <div className='logo2'></div>
+        </Link>
       </div>
 
 
@@ -99,6 +102,7 @@ const page1 = ({ params }) => {
 
       </section>
       <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", alignContent: "center" }} >
+        
         {content?.contents?.map((e) => {
           return <>
             <Relate key={Math.floor(Math.random() * 234)} e={e} />
