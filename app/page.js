@@ -108,7 +108,7 @@ Explore the ultimate solution for easy and efficient video and music downloads f
 
 <footer className="footer">
     <div className="container text-center">
-      <span className="footer-text">Copyright © 2023 | All Rights Reserved | Surendra Kumar</span>
+      <span className="footer-text">Copyright © 2023 | All Rights Reserved </span>
     </div>
   </footer>
 
